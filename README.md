@@ -4,7 +4,6 @@
 [![typescript](https://img.shields.io/badge/typescript-D4FAFF?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
 
 <p align="center">
- <a href="#about">Sobre</a> • 
  <a href="#started">Começando</a> • 
   <a href="#routes">Rotas da Aplicação</a> • 
   <a href="#colab">Colaboradores</a> •
@@ -15,10 +14,6 @@
 <p align="center">
     <img src="./.github/login.png" alt="Exemplo de Imagem" width="400px">
 </p>
-
-## <h2 id="started">📌 Sobre</h2>
-
-Este projeto é um exemplo simples de um aplicativo de Login e Cadastro desenvolvido durante [meu vídeo no YouTube](https://youtu.be/6qbuuPM_de4) para demonstrar como criar aplicativos Angular com autenticação e integração com um backend.
 
 ## <h2 id="started">🚀 Começando</h2>
 
