@@ -1,7 +1,8 @@
 <h1 align="center" style="font-weight: bold;">Exemplo de Página de Login em Angular 💻</h1>
 
-[![angular](https://img.shields.io/badge/Angular-red?style=for-the-badge&logo=angular)](https://angular.io/)
-[![typescript](https://img.shields.io/badge/typescript-D4FAFF?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![Angular](https://img.shields.io/badge/Angular-v12-red)](https://angular.io/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-v4.5-blue)](https://www.typescriptlang.org/)
+
 
 <p align="center">
  <a href="#about">Sobre</a> • 
