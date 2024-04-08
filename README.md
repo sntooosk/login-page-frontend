@@ -1,75 +1,71 @@
-[![typescript](https://img.shields.io/badge/typescript-D4FAFF?style=for-the-badge&logo=typescript)](https://img.shields.io/badge/typescript-D4FAFF?style=for-the-badge&logo=typescript)
-[![angular](https://img.shields.io/badge/Angular-red?style=for-the-badge&logo=angular)](https://img.shields.io/badge/Angular-red?style=for-the-badge&logo=angular)
+<h1 align="center" style="font-weight: bold;">Exemplo de Página de Login em Angular 💻</h1>
 
-<h1 align="center" style="font-weight: bold;">Login Page example in Angular 💻</h1>
-
-![angular](https://img.shields.io/badge/Angular-red?style=for-the-badge&logo=angular)
-![typescript](https://img.shields.io/badge/typescript-D4FAFF?style=for-the-badge&logo=typescript)
+[![angular](https://img.shields.io/badge/Angular-red?style=for-the-badge&logo=angular)](https://angular.io/)
+[![typescript](https://img.shields.io/badge/typescript-D4FAFF?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
 
 <p align="center">
- <a href="#about">About</a> • 
- <a href="#started">Getting Started</a> • 
-  <a href="#routes">App Routes</a> • 
-  <a href="#colab">Collaborators</a> •
- <a href="#contribute">Contribute</a>
+ <a href="#about">Sobre</a> • 
+ <a href="#started">Começando</a> • 
+  <a href="#routes">Rotas da Aplicação</a> • 
+  <a href="#colab">Colaboradores</a> •
+  <a href="#contribution">Contribuição</a> •
+ <a href="#license">Licença</a>
 </p>
 
 <p align="center">
-    <img src="./.github/login.png" alt="Image Example" width="400px">
+    <img src="./.github/login.png" alt="Exemplo de Imagem" width="400px">
 </p>
 
-<h2 id="started">📌 About</h2>
+## <h2 id="started">📌 Sobre</h2>
 
-This project is a simple Login and Sign Up app developed during [my youtube video](https://youtu.be/6qbuuPM_de4) to demonstrate how to create Angular apps with authentication and integrate with a backend.
+Este projeto é um exemplo simples de um aplicativo de Login e Cadastro desenvolvido durante [meu vídeo no YouTube](https://youtu.be/6qbuuPM_de4) para demonstrar como criar aplicativos Angular com autenticação e integração com um backend.
 
-<h2 id="started">🚀 Getting started</h2>
+## <h2 id="started">🚀 Começando</h2>
 
-Here you describe how to run your project locally.
+Aqui você descreve como executar o seu projeto localmente.
 
-<h3>Prerequisites</h3>
+### <h3>Pré-requisitos</h3>
 
-Here you list all prerequisites necessary for running your project. For example:
+Aqui você lista todos os pré-requisitos necessários para executar o seu projeto. Por exemplo:
 
 - [NodeJS](https://nodejs.org/)
 - [Git](https://git-scm.com/)
 - [Angular CLI](https://angular.io/cli)
 
-<h3>Cloning</h3>
+### <h3>Clonagem</h3>
 
-How to clone your project.
+Como clonar o seu projeto.
 
 ```bash
-git clone https://github.com/devtech-alpha/login-page.git
+git clone https://github.com/seu-usuario/pagina-login-angular.git
 ```
 
-<h3>Starting</h3>
+### <h3>Inicialização</h3>
 
-How to start your project.
+Como iniciar o seu projeto.
 
 ```bash
-cd project-name
+cd nome-do-projeto
 npm run start
 ```
 
-<h2 id="routes">📍 Application Routes</h2>
+## <h2 id="routes">📍 Rotas da Aplicação</h2>
 
-Here you can list the main routes of your API and what their expected request bodies are.
-​
-| Route | Description  
-|----------------------|-----------------------------------------------------
-| <kbd>/signup</kbd> | Page to sign up
-| <kbd>/login</kbd> | Page to log in
-| <kbd>/user</kbd> | Protected page that only logged-in users can access
+Aqui você pode listar as principais rotas da sua aplicação e qual é o formato esperado para as requisições.
 
-<h2 id="contribute">📫 Contribute</h2>
+| Rota                 | Descrição                                                  |
+| -------------------- | ---------------------------------------------------------- |
+| <kbd>/cadastro</kbd> | Página de cadastro                                         |
+| <kbd>/login</kbd>    | Página de login                                            |
+| <kbd>/usuario</kbd>  | Página protegida que apenas usuários logados podem acessar |
 
-1. `git clone https://github.com/devtech-alpha/text-editor.git`
-2. `git checkout -b feature/NAME`
-3. Follow commit patterns.
-4. Open a Pull Request explaining the problem solved or feature made. If it exists, append a screenshot of visual modifications and wait for the review!
+## <h2 id="contribute">📫 Contribuição</h2>
 
-<h3>Documentation that might help</h3>
+1. `git clone https://github.com/seu-usuario/editor-texto.git`
+2. `git checkout -b feature/NOME`
+3. Siga padrões de commit.
+4. Abra um Pull Request explicando o problema resolvido ou funcionalidade adicionada. Se existir, anexe uma captura de tela das modificações visuais e aguarde a revisão!
 
-[📝 How to create a Pull Request](https://www.atlassian.com/git/tutorials/making-a-pull-request)
+## <a name="license"></a>Licença
 
-[💾 Commit pattern](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
