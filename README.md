@@ -15,7 +15,6 @@
     <img src="./.github/login.png" alt="Exemplo de Imagem" width="400px">
 </p>
 
-
 ## <h2 id="started">🚀 Começando</h2>
 
 Aqui você descreve como executar o seu projeto localmente.
