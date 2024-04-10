@@ -7,13 +7,13 @@ import { tap } from 'rxjs';
   providedIn: 'root',
 })
 export class LoginService {
-  apiUrl: string = 'https://login-app-backend-hx35.onrender.com/auth';
+  URL: string = 'https://login-app-backend-hx35.onrender.com/auth';
 
   constructor(private httpClient: HttpClient) {}
 
   login(email: string, password: string) {
     return this.httpClient
-      .post<LoginResponse>(this.apiUrl + '/login', { email, password })
+      .post<LoginResponse>(`${this.URL}/login`, { email, password })
       .pipe(
         tap((value) => {
           sessionStorage.setItem('auth-token', value.token);
@@ -24,7 +24,7 @@ export class LoginService {
 
   signup(name: string, email: string, password: string) {
     return this.httpClient
-      .post<LoginResponse>(this.apiUrl + '/register', { name, email, password })
+      .post<LoginResponse>(`${this.URL}/register`, { name, email, password })
       .pipe(
         tap((value) => {
           sessionStorage.setItem('auth-token', value.token);
